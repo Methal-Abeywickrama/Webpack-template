@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.prod.js",
     "testBuild": "webpack --config webpack.dev.js",
     "dev": "webpack serve --open --config webpack.dev.js",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin gh-pages",
+    "setup": "npm install --save-dev html-webpack-plugin webpack webpack-cli webpack-dev-server style-loader css-loader html-loader"
   },
   "keywords": [],
   "author": "",
